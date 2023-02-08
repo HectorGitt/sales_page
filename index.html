@@ -183,6 +183,13 @@
 				width: "100%", 
 				height: '390', 
 				videoId: 'qtgPg73c4B8', //replace VIDEO_ID with the videoId from Youtube 
+				playerVars: {
+					'autoplay': 0,
+					'controls': 1,
+					'showinfo': 0,
+					'disablekb': 1,
+					'rel': 0,
+          		},
 				events: { 
 					'onPlayerReady': onPlayerReady, 
 					'onStateChange': onPlayerStateChange 
